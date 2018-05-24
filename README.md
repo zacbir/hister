@@ -18,7 +18,7 @@ Found 2 documents:
 $ hister rm ed35d1
 Removed 1 document:
   - ed35d1 [Introduction — PyObjC - the Python to Objective-C bridge](http://pyobjc.readthedocs.io/en/latest/)
-$ hister list today
+$ hister seen today
 Found 3 documents from today:
   - 1fe7c0 [Welcome to the Click Documentation — Click Documentation (6.0)](http://click.pocoo.org/6/)
   - d889d7 [Immersive Math](http://immersivemath.com/ila/index.html)
@@ -26,7 +26,7 @@ Found 3 documents from today:
 $ hister anno d889d7 A really cool site for visualizing math concepts
 Annotated Immersive Math:
   - d889d7 [Immersive Math](http://immersivemath.com/ila/index.html) A really cool site for visualizing math concepts
-$ hister history --json
+$ hister export --format json
 {
   "2018-05-23":
     {
